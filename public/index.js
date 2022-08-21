@@ -36,6 +36,8 @@ const makeRobotChoiceCard = (bot) => {
     `
 }
 
+// ^^^ adds w bot-btn
+
 const makeRobotPlayerCard = (bot) => {
     return `
         <div class="bot-card outline">
@@ -48,6 +50,8 @@ const makeRobotPlayerCard = (bot) => {
         </div>
     `
 }
+
+// ^^^ removes w bot-btn
 
 const makeRobotDisplayCard = (bot) => {
     return `
